@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="277.0" prefWidth="395.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.ServerController">
+   <children>
+      <Button layoutX="325.0" layoutY="211.0" mnemonicParsing="false" onAction="#sendClicked" prefHeight="26.0" prefWidth="60.0" text="Send" />
+      <TextArea fx:id="incomingText" layoutX="14.0" layoutY="39.0" prefHeight="171.0" prefWidth="366.0" />
+      <TextField fx:id="outgoingText" layoutX="7.0" layoutY="211.0" prefHeight="26.0" prefWidth="316.0" />
+      <Label layoutX="184.0" layoutY="14.0" prefHeight="18.0" prefWidth="41.0" text="Server" />
+      <Button layoutX="7.0" layoutY="238.0" mnemonicParsing="false" onAction="#openSocketClicked" text="Open Socket" />
+      <Button layoutX="329.0" layoutY="238.0" mnemonicParsing="false" onAction="#exitClicked" prefHeight="26.0" prefWidth="51.0" text="Exit" />
+   </children>
+</AnchorPane>
